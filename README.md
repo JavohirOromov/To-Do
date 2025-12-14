@@ -22,12 +22,11 @@ Mening To-Do demo dasturim
 ## 📸 Skrinshot
 <p float="left">
   <img src="https://drive.google.com/uc?export=view&id=1WYqOb-WmLZxEI-pSNzr17RAycStxxZSu" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1xcqDQsqylOT5s7AmCSZ04S2P7dyaHv1A" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1sEuEBXdMVwpcWph8JrXK8TZhazx_My0D" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1-o1waxbUpBOeWbYBdNfg4yhJqDArRT-e" width="10%" />
-   <img src="https://drive.google.com/uc?export=view&id=1_UY-1xzQ9Uw8l6DNDYZ3MytLGh2RNIdR" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1r-ugQGdRTKZlUQLpWjlyC58LU9pUSK1i" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1YE9n4nN9S98Tl5Sm0R0DupyElKj6Grj7" width="10%" />
+  <img src="https://drive.google.com/uc?export=view&id=1gXicmFS1Jqyl54ZFKEA1xSAewSrKCrtQ" width="10%" />
+  <img src="https://drive.google.com/uc?export=view&id=17I6lXoZ83349rDmI04PIAAyAnP9EHMgn" width="10%" />
+  <img src="https://drive.google.com/uc?export=view&id=19vQVHAD53Z975w3n61hSrCad2qfuSuPF" width="10%" />
+   <img src="https://drive.google.com/uc?export=view&id=1hpTUT41vRm4lfJEsdHiQR1MNwl0XHoLK" width="10%" />
+  <img src="https://drive.google.com/uc?export=view&id=1Cb1FyD7WNFfEnqpMO4mcb6H6WE2ZLl_c" width="10%" />
 </p>
 
 ## ⚙️ O'rnatish va ishga tushirish
@@ -35,4 +34,4 @@ Mening To-Do demo dasturim
 1.Repozitoriyni klonlash:
 
 ```bash
-https://github.com/JavohirOromov/QuizTrivia.git
+https://github.com/JavohirOromov/To-Do.git
