@@ -4,8 +4,10 @@ import com.javohir.to_do.data.mapper.toData
 import com.javohir.to_do.data.mapper.toDomain
 import com.javohir.to_do.domain.model.Todo
 import com.javohir.to_do.domain.repository.TodoRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 class TodoRepositoryImpl @Inject constructor(
@@ -19,14 +21,14 @@ class TodoRepositoryImpl @Inject constructor(
     }
 
     override suspend fun insertTodo(todo: Todo) {
-        todoDao.insertTodo(todo.toData())
+      withContext(Dispatchers.IO) {todoDao.insertTodo(todo.toData())}
     }
 
     override suspend fun updateTodo(todo: Todo) {
-        todoDao.updateTodo(todo.toData())
+      withContext(Dispatchers.IO) {todoDao.updateTodo(todo.toData())}
     }
 
     override suspend fun deleteTodo(todo: Todo) {
-        todoDao.deleteTodo(todo.toData())
+      withContext(Dispatchers.IO){todoDao.deleteTodo(todo.toData())}
     }
 }
